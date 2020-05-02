@@ -47,7 +47,8 @@ public class FXMLController {
     
     @FXML
     void doAnalizzaOggetti(ActionEvent event) {
-
+    	this.model.buildGraph();
+    	txtResult.setText("Vertici: "+model.getNVertici()+" Archi: "+model.getNArchi()+"\n");
     }
 
     @FXML

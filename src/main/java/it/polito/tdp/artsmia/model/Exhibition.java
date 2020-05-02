@@ -2,11 +2,11 @@ package it.polito.tdp.artsmia.model;
 
 public class Exhibition {
 
-	int id;
-	String department;
-	String title;
-	int beginYear;
-	int endYear;
+	private int id;
+	private String department;
+	private String title;
+	private int beginYear;
+	private int endYear;
 
 	public Exhibition(int id, String department, String title, int beginYear, int endYear) {
 		super();
